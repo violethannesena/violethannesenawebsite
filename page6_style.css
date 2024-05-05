@@ -1,0 +1,125 @@
+* { 
+
+    margin: 0px;
+    background-color: #231f20;
+}
+
+.Violin { 
+    margin-top: 20;
+    img{
+        width: auto;
+        height: 250px;
+    }
+    
+}
+
+.Violin_2 {
+    margin-top: -250;
+    margin-left: 250;
+    img{
+        width: auto;
+        height: 250px;
+    }
+}
+
+.projects {
+    img{
+        width: 250px;
+        height: auto;
+    }
+}
+
+.orb {
+    padding: -300px;
+    display: block;
+    margin-top: -50px;
+    img{
+        width: auto;
+        height: 200px;
+        
+       
+    }
+}
+
+.CV {
+    img{
+        width: 125px;
+        height: 125px;
+    }
+    
+}
+
+.Compositions {
+    img{
+        width: 200px;
+        height: 150px;
+    } 
+}
+
+.Contact {
+    img{
+        width: 200px;
+        height: 150px;
+    }  
+}
+
+.About {
+    img{
+        width: 200px;
+        height: 150px;
+    } 
+
+}
+
+
+body {
+    width:50vw; 
+    height: 50vh; 
+    display: flex;
+    flex-direction: column;
+    background-color: #231f20;
+    overflow-x: hidden;
+} 
+
+
+.Container { 
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #231f20;
+    margin-top: -10px;
+   
+    
+}
+
+
+.fear {
+    margin-top: 190px;
+    margin-left: 0px;
+    img{
+        width: 500px;
+        height: auto;
+    }
+}
+
+
+.h1 {
+    position: absolute;
+    margin-top: 300px;
+}
+
+
+
+.not_cropped {
+    width:50vw; 
+    height: 50vh;
+
+    img {
+        margin-left: 1000px;
+        margin-top: -655px;
+        width: 700px;
+        height: 900px;
+    }
+
+}

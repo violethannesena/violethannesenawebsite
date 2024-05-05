@@ -1,0 +1,87 @@
+
+* { 
+
+  /* background-color: black; */
+  /* position: absolute; */
+  
+  
+
+margin: 0px;
+margin-right: -7px;
+margin
+.scrollable-element {
+  scrollbar-color: black;
+}
+}
+
+img { 
+  width: 150px; 
+  height: 150px;
+}
+
+
+body {
+  width:50vw; 
+  height: 50vh; 
+  background-image: url("pics/not\ cropped.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-color: #231f20;
+  overflow-x: hidden;
+}
+.photoBanner {
+  width: 1920px;
+  height: 1080px;
+.Buttons { 
+  background-color: red;
+}
+
+.Violet {
+
+}
+.Hannesena {
+  /* position: absolute;
+  margin-top: -500px; */
+  }
+
+
+
+
+.Compositions {
+
+}
+
+CV {
+
+}
+
+
+
+.Contact { 
+  position: absolute;
+
+  .meplayingviolin1 {
+
+  }
+
+
+
+  /* object-fit: cover;
+}
+} 
+
+.Composistions { 
+  /* position: absolute;
+  margin-top: -800px; */
+}
+
+img { 
+}
+
+.meplayingviolin1 {
+
+}
+
+

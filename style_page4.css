@@ -1,0 +1,90 @@
+* { 
+
+    margin: 0px;
+    background-color: #231f20;
+}
+
+.Violin { 
+    margin-top: 20;
+    img{
+        width: auto;
+        height: 250px;
+    }
+    
+}
+
+.Violin_2 {
+    margin-top: -250;
+    margin-left: 250;
+    img{
+        width: auto;
+        height: 250px;
+    }
+}
+
+.CV {
+    img{
+        width: 120px;
+        height: auto;
+    }
+    
+}
+
+.projects {
+    img{
+        width: 250px;
+        height: auto;
+    }
+}
+
+
+body {
+    width:50vw; 
+    height: 50vh; 
+    display: flex;
+    flex-direction: column;
+    background-color: #231f20;
+    overflow-x: hidden;
+} 
+
+.h1 {
+    margin-right: -200;
+}
+
+.orb {
+
+    img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+.bandcamp {
+    margin-left: 50px;
+}
+
+
+.Container { 
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    background-color: #231f20;
+    img[
+        margin-top: -1800px;
+
+    ]
+
+}
+
+.not_cropped {
+    width:50vw; 
+    height: 50vh;
+
+    img {
+        margin-left: 700px;
+        margin-top: -1100px;
+        width: 1300px;
+        height: 900px;
+    }
+
+}
