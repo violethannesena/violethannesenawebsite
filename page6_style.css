@@ -94,15 +94,58 @@ body {
 }
 
 
-.fear {
-    margin-top: 190px;
-    margin-left: 0px;
-    img{
-        width: 500px;
-        height: auto;
-    }
+
+
+
+.Duo_1 {
+margin-top: -750px;
+margin-left: 670px;
+
+img {
+    width: 600px;
+    height: auto;
+
+}
 }
 
+.Duo_2 {
+    margin-top: -540px;
+    margin-left: -50px;
+    img {
+        width: 400px;
+        height: auto;
+    }
+    }
+
+.Duo_3 {
+        margin-top: -100px;
+         margin-left: -50px;
+        img {
+            width: 400px;
+            height: auto;
+        }
+        }
+
+
+
+            .fear {
+                img{
+                   width: 200px;
+                   height: auto;
+                   margin-top: 300px;
+                   margin-left: 400px;
+               }
+           }
+    
+
+        .Container2 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            margin-top: 750px;
+          }
+
+          
 
 .h1 {
     position: absolute;
@@ -123,3 +166,10 @@ body {
     }
 
 }
+
+.dublab {
+    margin-top: 380px;
+}
+
+
+
