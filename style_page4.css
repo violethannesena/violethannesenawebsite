@@ -88,3 +88,59 @@ body {
     }
 
 }
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    margin-left: 300px;
+    margin-top: 200px;
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 50px;
+    border-radius: 12px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: #ffffff;
+  }
+  
+  .soundcloud {
+
+        background: #231f20;
+        color: white;
+
+  }
+  
+  .youtube {
+    background: #231f20;
+    color: white;
+  }
+
+  .spotify {
+    background: #231f20;
+    color: white;
+
+  }
+
+  .apple-music {
+    background: #231f20;
+    color: white;
+
+  }
+
+  .bandcamp  {
+    background: #231f20;
+    color: white;
+    margin-left: -6px;
+
+  }
