@@ -1,146 +1,212 @@
-* { 
-
-    margin: 0px;
-    background-color: #231f20;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.Violin { 
-    margin-top: 20;
-    img{
-        width: auto;
-        height: 250px;
-    }
-    
-}
-
-.Violin_2 {
-    margin-top: -250;
-    margin-left: 250;
-    img{
-        width: auto;
-        height: 250px;
-    }
-}
-
-.CV {
-    img{
-        width: 120px;
-        height: auto;
-    }
-    
-}
-
-.projects {
-    img{
-        width: 250px;
-        height: auto;
-    }
-}
-
 
 body {
-    width:50vw; 
-    height: 50vh; 
+    min-height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: #231f20;
+    color: white;
     overflow-x: hidden;
-} 
-
-.h1 {
-    margin-right: -200;
-}
-
-.orb {
-
-    img {
-        width: 200px;
-        height: auto;
-    }
-}
-
-.bandcamp {
-    margin-left: 50px;
+    padding: 50px;
 }
 
 
-.Container { 
-    background-color: black;
+/* Navigation Row */
+
+.Container {
+
     display: flex;
-    justify-content: space-around;
-    background-color: #231f20;
-    img[
-        margin-top: -1800px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
 
-    ]
+    width: 100%;
+    background-color: #231f20;
 
 }
+
+
+/* Navigation Images */
+
+.Container img {
+
+    width: 150px;
+    height: auto;
+
+}
+
+
+/* Individual Image Sizes */
+
+.CV img {
+
+    width:120px;
+
+}
+
+
+.projects img {
+
+    width:150px;
+
+}
+
+
+.orb img {
+
+    width:200px;
+
+}
+
+
+
+/* Composition Text */
+
+.Compositions_Text {
+
+    margin-top:50px;
+    margin-left:20px;
+
+    width:500px;
+
+}
+
+
+.Compositions_Text h1 {
+
+    color:white;
+    font-size:1em;
+    font-family:'Cormorant Garamond', serif;
+    font-weight:400;
+    line-height:1.5;
+
+}
+
+
+
+
+/* Bandcamp */
+
+.bandcamp-player {
+
+    margin-top:50px;
+    margin-left:20px;
+
+}
+
+
+
+/* Social Media Bar */
+
+.icon-bar {
+
+    display:flex;
+    flex-direction:column;
+
+    position:fixed;
+
+    right:40px;
+    top:50%;
+
+    transform:translateY(-50%);
+
+}
+
+
+
+.icon-bar a {
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    width:60px;
+    height:60px;
+
+    margin:10px;
+
+    color:white;
+
+    font-size:40px;
+
+    background:#231f20;
+
+    border-radius:12px;
+
+    text-decoration:none;
+
+}
+
+
+.icon-bar a:hover {
+
+    background:white;
+    color:#231f20;
+
+}
+
+
+/* Individual Icons */
+
+.soundcloud,
+.youtube,
+.spotify,
+.apple-music,
+.bandcamp {
+
+    background:#231f20;
+    color:white;
+
+}
+
+
+
+/* Large Image Section */
 
 .not_cropped {
-    width:50vw; 
-    height: 50vh;
 
-    img {
-        margin-left: 700px;
-        margin-top: -1100px;
-        width: 1300px;
-        height: 900px;
-    }
+    width:100%;
+    margin-top:50px;
 
 }
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-.icon-bar {
-    position: absolute;
-    top: 30%;
-    transform: translateY(-50%);
-    margin-left: 300px;
-    margin-top: 225px;
-  }
-  
-  /* Style the icon bar links */
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 50px;
-    border-radius: 12px;
-  }
-  
-  /* Style the social media icons with color, if you want */
-  .icon-bar a:hover {
-    background-color: #ffffff;
-  }
-  
-  .soundcloud {
 
-        background: #231f20;
-        color: white;
+.not_cropped img {
 
-  }
-  
-  .youtube {
-    background: #231f20;
-    color: white;
-  }
+    width:800px;
+    height:auto;
 
-  .spotify {
-    background: #231f20;
-    color: white;
+}
 
-  }
+.composition-link {
 
-  .apple-music {
-    background: #231f20;
-    color: white;
+    color:white;
+    text-decoration:none;
 
-  }
+}
 
-  .bandcamp  {
-    background: #231f20;
-    color: white;
-    margin-left: -6px;
 
-  }
+.composition-link:hover {
+
+    text-decoration:underline;
+
+}
+
+.video-container {
+
+    margin-top:50px;
+    margin-left:20px;
+
+}
+
+
+.video-container iframe {
+
+    max-width:100%;
+
+}
