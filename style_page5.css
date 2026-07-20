@@ -1,115 +1,67 @@
-* { 
-
-    margin: 0px;
-    background-color: #231f20;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
-
-.Violin { 
-    margin-top: 20;
-    img{
-        width: auto;
-        height: 250px;
-    }
-    
-}
-
-.Violin_2 {
-    margin-top: -250;
-    margin-left: 250;
-    img{
-        width: auto;
-        height: 250px;
-    }
-}
-
-.orb {
-    padding: -300px;
-    display: block;
-    margin-top: -50px;
-    img{
-        width: auto;
-        height: 200px;
-        
-       
-    }
-}
-
-.CV {
-    img{
-        width: 125px;
-        height: 125px;
-    }
-    
-}
-
-.Compositions {
-    img{
-        width: 200px;
-        height: 150px;
-    } 
-}
-
-.Contact {
-    img{
-        width: 200px;
-        height: 150px;
-    }  
-}
-
-.About {
-    img{
-        width: 200px;
-        height: 150px;
-    } 
-
-}
-
 
 body {
-    width:50vw; 
-    height: 50vh; 
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #231f20;
+    color: white;
     display: flex;
     flex-direction: column;
-    background-color: #231f20;
     overflow-x: hidden;
-} 
+}
+
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+
+.Container img {
+    height: 150px;
+    width: auto;
+}
+
+
+.About img {
+    width: 200px;
+    height: 150px;
+}
+
+.Compositions img {
+    width: 200px;
+    height: 150px;
+}
+
+.Contact img {
+    width: 200px;
+    height: 150px;
+}
+
+.CV img {
+    width: 125px;
+    height: 125px;
+}
+
+.projects img {
+    width: 250px;
+    height: auto;
+}
+
+.orb img {
+    width: 200px;
+    height: auto;
+}
+
 
 .h1 {
-    
-        margin-right: -200px;
-        margin-top: 200px;
-        margin-bottom: 100px;
-   
-}
-
-
-.Container { 
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: #231f20;
-    margin-top: -2300px;
-   
-    
-}
-
-.projects {
-    img{
-        width: 250px;
-        height: auto;
-    }
-}
-
-.not_cropped {
-    width:50vw; 
-    height: 50vh;
-
-    img {
-        margin-left: 1000px;
-        margin-top: -655px;
-        width: 700px;
-        height: 900px;
-    }
-
+    margin-top: 20px;
+    margin-left: 50px;
+    color: white;
 }
