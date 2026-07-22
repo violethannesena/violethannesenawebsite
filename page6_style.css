@@ -171,5 +171,35 @@ img {
     margin-top: 380px;
 }
 
+.section-divider {
+    border: none;
+    border-top: 1px solid white;
+    opacity: 0.5;
+
+    width: 100vw;
+    margin: 80px calc(50% - 50vw);
+}
+
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+    width: 100%;
+}
+
+.pdf-link {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+.pdf-link:hover {
+    text-decoration: underline;
+}
 
 
