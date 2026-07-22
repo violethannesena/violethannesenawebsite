@@ -1,117 +1,137 @@
-* { 
-
-    margin: 0px;
-    background-color: #231f20;
-}
-
-.Violin { 
-    margin-top: 20;
-    img{
-        width: auto;
-        height: 250px;
-    }
-    
-}
-
-.Violin_2 {
-    margin-top: -250;
-    margin-left: 250;
-    img{
-        width: auto;
-        height: 250px;
-    }
-}
-
-.orb {
-    padding: -300px;
-    display: block;
-    margin-top: -50px;
-    img{
-        width: auto;
-        height: 200px;
-        
-       
-    }
-}
-
-.not_cropped {
-    
-     img {
-        margin-left: 1000px;
-        margin-top: 205px;
-        width: 600px;
-        height: auto;
-    }}
-
-.CV {
-    img{
-        width: 125px;
-        height: 125px;
-    }
-    
-}
-
-.Compositions {
-    img{
-        width: 200px;
-        height: 150px;
-    } 
-}
-
-.Contact {
-    img{
-        width: 200px;
-        height: 150px;
-    }  
-}
-
-.About {
-    img{
-        width: 200px;
-        height: 150px;
-    } 
-
-}
-
-.projects {
-    img{
-        width: 250px;
-        height: auto;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 body {
-    width:50vw; 
-    height: 50vh; 
-    display: flex;
-    flex-direction: column;
     background-color: #231f20;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
     overflow-x: hidden;
-} 
+}
 
 
+/* =====================
+   NAVIGATION
+===================== */
 
 .Container { 
-    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    padding: 40px 50px;
+
     background-color: #231f20;
-    margin-top: -250px;
-   
-    
-}
-
-.h1 {
- 
-        margin-right: -200px;
-        margin-top: 500px;
-        margin-bottom: -400px;
-       
-   
 }
 
 
+/* Navigation images */
+
+.About img {
+    width: 200px;
+    height: 150px;
+}
 
 
+.Compositions img {
+    width: 200px;
+    height: 150px;
+}
+
+
+.Contact img {
+    width: 200px;
+    height: 150px;
+}
+
+
+.CV img {
+    width: 125px;
+    height: 125px;
+}
+
+
+.projects img {
+    width: 250px;
+    height: auto;
+}
+
+
+.orb img {
+    width: 200px;
+    height: auto;
+}
+
+
+
+/* =====================
+   MAIN IMAGES
+===================== */
+
+
+.Violin {
+    margin-top: 40px;
+}
+
+
+.Violin img {
+    width: auto;
+    height: 250px;
+}
+
+
+
+.Violin_2 {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+
+.Violin_2 img {
+    width: auto;
+    height: 250px;
+}
+
+
+
+/* =====================
+   LARGE IMAGE
+===================== */
+
+
+.not_cropped {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 50px;
+}
+
+
+.not_cropped img {
+
+    width: 600px;
+    height: auto;
+
+}
+
+
+
+/* =====================
+   HEADINGS
+===================== */
+
+
+h1 {
+
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    font-weight: normal;
+
+}
